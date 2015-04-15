@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Ground.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Screen.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
