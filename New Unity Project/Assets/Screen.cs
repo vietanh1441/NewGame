@@ -5,6 +5,7 @@ public class Screen : MonoBehaviour {
     public bool fade = false;
     public int fill = 0;
     public Material mat1, mat2, mat3, mat4, mat5, mat6, mat0 ;
+    public Transform follower;
     void Start()
     {
         gameObject.GetComponent<Renderer>().material = mat0;
@@ -13,7 +14,7 @@ public class Screen : MonoBehaviour {
     void Update()
     {
         //if()
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1")&&fade==false)
         {
             Fadein(mat1);
             fade = true;
@@ -28,33 +29,29 @@ public class Screen : MonoBehaviour {
             fill++;
             if (fill == 3)
             {
-                Debug.Log("HERE");
                 Fadein(mat2);
+                follower.SendMessage("Stop"); 
             }
             if(fill == 6)
             {
-                Debug.Log("HERE");
                 Fadein(mat3);
             }
             if (fill == 9)
             {
-                Debug.Log("HERE");
                 Fadein(mat4);
             }
             if (fill == 12)
             {
-                Debug.Log("HERE");
                 Fadein(mat5);
             }
             else if(fill == 15)
             {
-                Debug.Log("HERE");
-                Fadein(mat6);
+                Fadein(mat6);  
             }
             if (fill == 88)
             {
-                Debug.Log("HERE");
                 Fadein(mat5);
+                
             }
             else if(fill == 91)
             {
@@ -62,19 +59,17 @@ public class Screen : MonoBehaviour {
             }
             if (fill == 94)
             {
-                Debug.Log("HERE");
                 Fadein(mat3);
             }
             if (fill == 97)
             {
-                Debug.Log("HERE");
                 Fadein(mat2);
             }
             else if(fill == 100)
             {
+                follower.SendMessage("Stop");
                 fade = false;
                 Fadein(mat0); //StartCoroutine(FadeTo(0.0f, 1.0f));
-                Debug.Log("HERE");
                 fill = 0;
             }
         }

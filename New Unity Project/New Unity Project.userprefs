@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\central.cs">
+    <Files>
+      <File FileName="Assets\trigger.cs" Line="27" Column="1" />
+      <File FileName="Assets\central.cs" Line="14" Column="1" />
+      <File FileName="Assets\Player.cs" Line="71" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\vietanh1441\Documents\GitHub\NewGame\New Unity Project\Assets\central.cs" line="11" />
+      <Breakpoint file="C:\Users\vietanh1441\Documents\GitHub\NewGame\New Unity Project\Assets\trigger.cs" line="23" />
+      <Breakpoint file="C:\Users\vietanh1441\Documents\GitHub\NewGame\New Unity Project\Assets\Player.cs" line="27" />
+      <Breakpoint file="C:\Users\vietanh1441\Documents\GitHub\NewGame\New Unity Project\Assets\Player.cs" line="44" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -3,12 +3,13 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
     public bool facingRight = true;
-    public bool jump = false;
+    public bool jump = false, run = true;
     public Transform groundCheck;
     public float moveForce = 200f;
     public float maxSpeed = 5f;
     public float jumpForce = 500f;
     private bool grounded = false;
+    public float speed = 5;
     private Rigidbody2D rb2d;
 
 	// Use this for initialization
@@ -27,28 +28,26 @@ public class Player : MonoBehaviour {
         }
 	}
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        Debug.Log("HIT");
+        if (other.tag == "Stone")
+            StartCoroutine("Strip");
+
+    }
+ 
     void FixedUpdate()
     {
-        float h = Input.GetAxis("Horizontal");
-
-       
-
-        if (h * rb2d.velocity.x < maxSpeed)
-            rb2d.AddForce(Vector2.right * h * moveForce);
-
-        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
-            rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-
-        if (h > 0 && !facingRight)
-            Flip();
-        else if (h < 0 && facingRight)
-            Flip();
+        if(run)
+            transform.Translate(speed * Time.deltaTime, 0, 0);
 
         if (jump)
         {
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
         }
+        
     }
 
     void Flip()
@@ -59,4 +58,13 @@ public class Player : MonoBehaviour {
         transform.localScale = theScale;
     }
 
+    IEnumerator Strip()
+    {
+
+        run = false;
+        transform.Translate(1, 0, 0);
+        yield return new WaitForSeconds(.5f);
+        run = true;
+
+    }
 }
