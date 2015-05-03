@@ -35,12 +35,13 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         /*grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-
+        
          if (Input.GetButton("Jump") && grounded)
         {
             jump = true;
             
         }*/
+
 	}
 
     void OnTriggerEnter2D(Collider2D other)
@@ -57,6 +58,7 @@ public class Player : MonoBehaviour {
  
     void FixedUpdate()
     {
+
         if (run)
         {
             transform.Translate(speed * Time.deltaTime, 0, 0);

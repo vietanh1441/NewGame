@@ -47,9 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\KunaiEditor\KunaiRotation.cs" />
-     <Compile Include="Assets\Left_screen.cs" />
-     <Compile Include="Assets\NextSong.cs" />
-     <Compile Include="Assets\Right_screen.cs" />
      <Compile Include="Assets\Script\Arrow_left.cs" />
      <Compile Include="Assets\Script\Arrow_right.cs" />
      <Compile Include="Assets\Script\Bow.cs" />
@@ -58,19 +55,29 @@
      <Compile Include="Assets\Script\Downdoor.cs" />
      <Compile Include="Assets\Script\Follower.cs" />
      <Compile Include="Assets\Script\Ground.cs" />
+     <Compile Include="Assets\Script\GroundCheck.cs" />
      <Compile Include="Assets\Script\Guard.cs" />
+     <Compile Include="Assets\Script\Left_screen.cs" />
+     <Compile Include="Assets\Script\NextSong.cs" />
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\RightCheck.cs" />
+     <Compile Include="Assets\Script\Right_screen.cs" />
      <Compile Include="Assets\Script\Screen.cs" />
      <Compile Include="Assets\Script\Tireness.cs" />
      <Compile Include="Assets\Script\Touch.cs" />
+     <Compile Include="Assets\Script\Wood_rl.cs" />
      <Compile Include="Assets\Script\central.cs" />
      <Compile Include="Assets\Script\game_trig.cs" />
+     <Compile Include="Assets\Script\ghost.cs" />
+     <Compile Include="Assets\Script\ghost_night.cs" />
+     <Compile Include="Assets\Script\music.cs" />
+     <Compile Include="Assets\Script\nat.cs" />
+     <Compile Include="Assets\Script\nextScene.cs" />
+     <Compile Include="Assets\Script\start_button.cs" />
+     <Compile Include="Assets\Script\temp_music.cs" />
      <Compile Include="Assets\Script\trigger.cs" />
-     <Compile Include="Assets\ghost.cs" />
-     <Compile Include="Assets\ghost_night.cs" />
-     <Compile Include="Assets\music.cs" />
-     <Compile Include="Assets\nextScene.cs" />
+     <Compile Include="Assets\Script\wolf.cs" />
+     <Compile Include="Assets\spider.cs" />
      <None Include="Assets\VarietyParticles\Variety Particles Readme.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\KunaiEditor\Editor\Readme.txt" />

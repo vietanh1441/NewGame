@@ -14,7 +14,6 @@ public class RightCheck : MonoBehaviour {
         {
             Player myParent = transform.parent.GetComponent<Player>();
             myParent.speed = 0;
-            Debug.Log("Work");
         }
 
         if (other.tag == "Arrow")

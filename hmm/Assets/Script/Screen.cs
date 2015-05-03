@@ -191,6 +191,12 @@ public class Screen : MonoBehaviour {
             for (i = 0; i < enemy.Length; i++)
                 list.Add(enemy[i]);
         }
+        enemy = GameObject.FindGameObjectsWithTag("Move");
+        if (enemy.Length > 0)
+        {
+            for (i = 0; i < enemy.Length; i++)
+                list.Add(enemy[i]);
+        }
         enemy = GameObject.FindGameObjectsWithTag("Dark");
         if (enemy.Length > 0)
         {

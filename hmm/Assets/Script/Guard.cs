@@ -31,7 +31,6 @@ public class Guard : MonoBehaviour {
 
     void Stop()
     {
-        Debug.Log("DOor");
         stop = true;
     }
 
