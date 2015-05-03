@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 132e5a46ff02d6849a573c66708f6ef4
+timeCreated: 1430353341
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PrincessWalk_3
+    21300002: PrincessWalk_0
+    21300004: PrincessWalk_1
+    21300006: PrincessWalk_2
+    21300008: PrincessWalk_4
+    21300010: PrincessWalk_5
+    21300012: PrincessWalk_6
+    21300014: PrincessWalk_27
+    21300016: PrincessWalk_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PrincessWalk_3
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1839
+        width: 116
+        height: 103
+      alignment: 9
+      pivot: {x: .669813156, y: .629833043}
+      border: {x: 0, y: 1, z: 0, w: 0}
+    - name: PrincessWalk_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1848
+        width: 109
+        height: 96
+      alignment: 9
+      pivot: {x: .729604602, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1848
+        width: 96
+        height: 97
+      alignment: 9
+      pivot: {x: .773452759, y: .538662314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1844
+        width: 95
+        height: 108
+      alignment: 9
+      pivot: {x: .804993331, y: .493121117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1846
+        width: 97
+        height: 96
+      alignment: 9
+      pivot: {x: .768067658, y: .585130036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_5
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1844
+        width: 95
+        height: 94
+      alignment: 9
+      pivot: {x: .789352894, y: .594843447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_6
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1848
+        width: 95
+        height: 93
+      alignment: 9
+      pivot: {x: .7923944, y: .56946063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_27
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1842
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PrincessWalk_29
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1834
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
