@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
         DistanceUI DUI = D_UI.GetComponent<DistanceUI>();
         scene_list.Add("1ststage");
         scene_list.Add("2stage");
+        scene_list.Add("3stage");
         scene = scene_list[0];
 
     }

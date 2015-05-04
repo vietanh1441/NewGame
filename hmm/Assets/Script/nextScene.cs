@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class nextScene : MonoBehaviour {
-
+    public int num;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,6 +16,6 @@ public class nextScene : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
-            other.SendMessage("NextScene",1);
+            other.SendMessage("NextScene",num);
     }
 }

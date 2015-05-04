@@ -18,7 +18,7 @@ public class DistanceUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        distance = player.GetComponent<Player>().distance;
+      //  distance = player.GetComponent<Player>().distance;
         text.text = "Distance: " + distance;
 	}
 }
