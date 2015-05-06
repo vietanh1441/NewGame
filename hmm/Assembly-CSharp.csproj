@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Coin.cs" />
+     <Compile Include="Assets\CoinUI.cs" />
      <Compile Include="Assets\KunaiEditor\KunaiRotation.cs" />
+     <Compile Include="Assets\Loose.cs" />
      <Compile Include="Assets\Script\Arrow_left.cs" />
      <Compile Include="Assets\Script\Arrow_right.cs" />
      <Compile Include="Assets\Script\Bow.cs" />
@@ -77,6 +80,7 @@
      <Compile Include="Assets\Script\temp_music.cs" />
      <Compile Include="Assets\Script\trigger.cs" />
      <Compile Include="Assets\Script\wolf.cs" />
+     <Compile Include="Assets\StopTile.cs" />
      <Compile Include="Assets\Wood_ud.cs" />
      <Compile Include="Assets\spider.cs" />
      <None Include="Assets\VarietyParticles\Variety Particles Readme.txt" />

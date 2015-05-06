@@ -22,6 +22,13 @@ public class wolf : MonoBehaviour {
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player" && stop == false)
+        {
+            other.SendMessage("Death");
+        }
+    }
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player" && stop == false)

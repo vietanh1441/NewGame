@@ -5,7 +5,7 @@ public class temp_music : MonoBehaviour {
     public AudioSource audio1;
     public AudioSource audio2;
     bool stop;
-    int fill = 200;
+    int fill = 500;
 	// Use this for initialization
 	void Start () {
 	    
@@ -15,8 +15,8 @@ public class temp_music : MonoBehaviour {
 	void Update () {
 	    if(stop)
         {
-            audio1.volume = fill * 0.005f;
-            audio2.volume = fill * 0.005f;
+            audio1.volume = fill * 0.002f;
+            audio2.volume = fill * 0.0005f;
             fill--;
         }
 	}

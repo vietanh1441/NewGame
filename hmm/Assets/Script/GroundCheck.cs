@@ -10,6 +10,10 @@ public class GroundCheck : MonoBehaviour {
         {
             gameObject.transform.parent.parent = other.transform;
         }
+        if(other.transform.tag == "StopTile")
+        {
+            gameObject.transform.parent.SendMessage("Stop");
+        }
 
     }
 
@@ -18,6 +22,10 @@ public class GroundCheck : MonoBehaviour {
         if (other.transform.tag == "Move")
         {
             gameObject.transform.parent.parent = null;
+        }
+        if (other.transform.tag == "StopTile")
+        {
+            gameObject.transform.parent.SendMessage("Go");
         }
 
     }

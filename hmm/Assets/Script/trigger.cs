@@ -13,7 +13,7 @@ public class trigger : MonoBehaviour {
 
     void Update()
     {
-        if(player.transform.position.x- transform.position.x > 50)
+        if(player.transform.position.x- transform.position.x > 25)
         {
             Destroy(transform.parent.gameObject);
         }

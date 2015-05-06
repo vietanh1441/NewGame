@@ -5,27 +5,26 @@ using System.Collections.Generic;
 public class Player : MonoBehaviour {
     public bool facingRight = true;
     bool death = false;
+    private Animator m_Anim;
     public bool jump = false, run = true;
    // public Transform groundCheck;
     /*public float moveForce = 200f;
     public float maxSpeed = 5f;
     public float jumpForce = 500f;*/
-    private bool grounded = false;
     public float speed = 5;
-    private Rigidbody2D rb2d;
     public float distance;
     GameObject screen;
     List<string> scene_list = new List<string>();
     string scene;
+    GameObject central;
 
     
 	// Use this for initialization
 	void Start () {
+        central = GameObject.FindGameObjectWithTag("Central");
         distance = 0;
+        m_Anim = GetComponent<Animator>();
         screen = GameObject.FindGameObjectWithTag("Screen");
-        rb2d = GetComponent<Rigidbody2D>();
-        GameObject D_UI = GameObject.FindGameObjectWithTag("DistanceUI");
-        DistanceUI DUI = D_UI.GetComponent<DistanceUI>();
         scene_list.Add("1ststage");
         scene_list.Add("2stage");
         scene_list.Add("3stage");
@@ -81,7 +80,7 @@ public class Player : MonoBehaviour {
 
     void Death()
     {
-
+        central.SendMessage("Death");
         screen.SendMessage("Death");
         
         
@@ -112,8 +111,25 @@ public class Player : MonoBehaviour {
 
     }
 
+    void Stop()
+    {
+        speed = 0;
+        m_Anim.SetBool("Stop", true);
+    }
+
+    void Go()
+    {
+        speed = 5;
+        m_Anim.SetBool("Stop", false);
+    }
+
+    void Goto(float x)
+    {
+        transform.Translate(x, transform.position.y, transform.position.z);
+    }
     void NextScene(int num)
     {
+        central.SendMessage("Save");
         scene = scene_list[num];
     }
 }

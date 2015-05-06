@@ -9,7 +9,6 @@ public class Bow : MonoBehaviour {
     public bool stop;
     public bool left;
     public float distance = 15;
-    float speed = 1;
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");

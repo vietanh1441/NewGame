@@ -5,7 +5,6 @@ public class spider : MonoBehaviour {
     GameObject player;
     public bool stop;
     public float distance = 15;
-    float speed = 5f;
     float limit_up, limit_down;
     float y;
     // Use this for initialization
@@ -30,6 +29,13 @@ public class spider : MonoBehaviour {
                 y = limit_down;
                 transform.position = new Vector3(transform.position.x,y, -1);
             }
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player" && stop == false)
+        {
+            other.SendMessage("Death");
         }
     }
 

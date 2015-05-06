@@ -23,6 +23,7 @@ public class ghost : MonoBehaviour {
         if(stop == true && done == true)
         {
             Destroy(clone);
+            done = false;
         }
 	}
 
