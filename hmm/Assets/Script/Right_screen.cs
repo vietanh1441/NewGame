@@ -22,8 +22,7 @@ namespace UnityStandardAssets._2D
         void OnMouseDown()
         {
             script.m_Jump = true;
-            if (Time.timeScale == 0)
-                player.SendMessage("Restart_from_checkpoint");
+            
         }
     }
 }
