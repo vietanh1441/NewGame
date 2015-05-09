@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: d81411b2a52d6b046987482119fd6af5
-timeCreated: 1431045705
+guid: 7451999d3dcb34d4091009f8f823402c
+timeCreated: 1431127439
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: TileSet_0
-    21300002: TileSet_1
+    21300000: ChromaForestTilesBW_0
+    21300002: ChromaForestTilesBW_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,23 +51,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: TileSet_0
+    - name: ChromaForestTilesBW_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 116
-        width: 56
-        height: 12
+        x: 8
+        y: 118
+        width: 79
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TileSet_1
+    - name: ChromaForestTilesBW_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 32
         width: 96
-        height: 67
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

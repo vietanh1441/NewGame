@@ -154,11 +154,9 @@ public class Screen : MonoBehaviour {
         }
         else
         {
+            if(tired>0)
             tired--;
-            if (tired == 0)
-            {
-                fade = true;
-            }
+            
         }
     }
 
@@ -235,7 +233,7 @@ public class Screen : MonoBehaviour {
 
     void Death()
     {
-        
+        fill = 0;
         death = true;
         n_death = false;
     }
