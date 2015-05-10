@@ -17,4 +17,12 @@ public class game_trig : MonoBehaviour {
             clone = Instantiate(scene, new Vector3(player.transform.position.x + 20, 1.5f, 0), Quaternion.identity) as Transform;
         }
     }
+
+    void Update()
+    {
+        if(player.transform.position.x - transform.position.x > 30)
+        {
+            Destroy(transform.parent.gameObject);
+        }
+    }
 }
