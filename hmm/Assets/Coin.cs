@@ -29,6 +29,7 @@ public class Coin : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            Debug.Log("?");
             Taken();
         }
     }

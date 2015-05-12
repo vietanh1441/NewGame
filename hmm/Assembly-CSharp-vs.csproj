@@ -46,6 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2DLightAssets\2DLight\DynamicLight.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\2.MultiplesLights\interface_manager.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\3.CoverExplosion(shockwave)\ReachedEventManager.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\3.CoverExplosion(shockwave)\bomb.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\9.ConeOfSight\SpawnCasters.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\Helpers\TablaSenoCoseno.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\Helpers\TimerClass.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\Helpers\interface_touch.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\Helpers\interface_touch2.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\IntelliMesh\IntelliderCircle.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\IntelliMesh\IntelliderConvexxxxxxxx.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\IntelliMesh\SmoothShadowFollow.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\SetRenderQueue.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\restoreStone.cs" />
+     <Compile Include="Assets\2DLightAssets\Scripts\rotate.cs" />
      <Compile Include="Assets\Checkpoint.cs" />
      <Compile Include="Assets\Checkpointbttn.cs" />
      <Compile Include="Assets\Coin.cs" />
@@ -85,8 +100,13 @@
      <Compile Include="Assets\StopTile.cs" />
      <Compile Include="Assets\Wood_ud.cs" />
      <Compile Include="Assets\spider.cs" />
+     <None Include="Assets\2DLightAssets\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
+     <None Include="Assets\2DLightAssets\Shaders\DepthMask.shader" />
      <None Include="Assets\VarietyParticles\Variety Particles Readme.txt" />
+     <None Include="Assets\2DLightAssets\Shaders\OffsetShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\2DLightAssets\Shaders\VertexColor.shader" />
+     <None Include="Assets\2DLightAssets\Shaders\Gradient-ZFighting.shader" />
      <None Include="Assets\KunaiEditor\Editor\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

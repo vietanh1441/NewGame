@@ -46,11 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2DLightAssets\Scripts\Helpers\fpsClass.js" />
      <Compile Include="Assets\VarietyParticles\Scenes\VPCameraRotation.js" />
      <Compile Include="Assets\VarietyParticles\Scenes\VPSceneController(Old).js" />
      <Compile Include="Assets\VarietyParticles\Scenes\VPSceneSelect.js" />
+     <None Include="Assets\2DLightAssets\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
+     <None Include="Assets\2DLightAssets\Shaders\DepthMask.shader" />
      <None Include="Assets\VarietyParticles\Variety Particles Readme.txt" />
+     <None Include="Assets\2DLightAssets\Shaders\OffsetShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\2DLightAssets\Shaders\VertexColor.shader" />
+     <None Include="Assets\2DLightAssets\Shaders\Gradient-ZFighting.shader" />
      <None Include="Assets\KunaiEditor\Editor\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

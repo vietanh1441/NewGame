@@ -47,10 +47,7 @@ public class Player : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
 
-       // Debug.Log("HIT");
-        if (other.tag == "Stone")
-            StartCoroutine("Strip");
-        else if (other.tag == "Death")
+        if (other.tag == "Death")
             Death();
        
 
