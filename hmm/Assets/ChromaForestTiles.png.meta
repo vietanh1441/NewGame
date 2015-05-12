@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 7c66d1cf754e2024d8e020de96c9d908
-timeCreated: 1431367928
+guid: 8937f363618ab5246943776f50fa1f9c
+timeCreated: 1431242408
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ChromaVillageTilesV2_0
-    21300002: ChromaVillageTilesV2_1
-    21300004: ChromaVillageTilesV2_2
-    21300006: ChromaVillageTilesV2_3
-    21300008: ChromaVillageTilesV2_4
-    21300010: ChromaVillageTilesV2_5
-    21300012: ChromaVillageTilesV2_6
-    21300014: ChromaVillageTilesV2_7
-    21300016: ChromaVillageTilesV2_8
-    21300018: ChromaVillageTilesV2_9
-    21300020: ChromaVillageTilesV2_10
-    21300022: ChromaVillageTilesV2_11
+    21300000: ChromaForestTiles_0
+    21300002: ChromaForestTiles_1
+    21300004: ChromaForestTiles_2
+    21300006: ChromaForestTiles_3
+    21300008: ChromaForestTiles_4
+    21300010: ChromaForestTiles_5
+    21300012: ChromaForestTiles_6
+    21300014: ChromaForestTiles_7
+    21300016: ChromaForestTiles_8
+    21300018: ChromaForestTiles_9
+    21300020: ChromaForestTiles_10
+    21300022: ChromaForestTiles_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -61,7 +61,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: ChromaVillageTilesV2_0
+    - name: ChromaForestTiles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -71,17 +71,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_1
+    - name: ChromaForestTiles_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 116
+        y: 118
         width: 32
-        height: 12
+        height: 10
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 12, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_2
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChromaForestTiles_2
       rect:
         serializedVersion: 2
         x: 64
@@ -91,7 +91,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_3
+    - name: ChromaForestTiles_3
       rect:
         serializedVersion: 2
         x: 0
@@ -101,17 +101,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_4
+    - name: ChromaForestTiles_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 66
+        y: 65
         width: 32
-        height: 30
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_5
+    - name: ChromaForestTiles_5
       rect:
         serializedVersion: 2
         x: 64
@@ -121,17 +121,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_6
+    - name: ChromaForestTiles_6
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
-        height: 35
+        height: 36
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_7
+    - name: ChromaForestTiles_7
       rect:
         serializedVersion: 2
         x: 32
@@ -141,7 +141,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_8
+    - name: ChromaForestTiles_8
       rect:
         serializedVersion: 2
         x: 64
@@ -151,7 +151,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_9
+    - name: ChromaForestTiles_9
       rect:
         serializedVersion: 2
         x: 0
@@ -161,7 +161,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_10
+    - name: ChromaForestTiles_10
       rect:
         serializedVersion: 2
         x: 32
@@ -171,7 +171,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChromaVillageTilesV2_11
+    - name: ChromaForestTiles_11
       rect:
         serializedVersion: 2
         x: 64

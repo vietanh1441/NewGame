@@ -82,7 +82,7 @@ public class Player : MonoBehaviour {
     {
         central.SendMessage("Death");
         screen.SendMessage("Death");
-        
+        Stop();
         
     }
 

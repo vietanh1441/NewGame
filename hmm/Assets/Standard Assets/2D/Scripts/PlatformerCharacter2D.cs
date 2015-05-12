@@ -19,7 +19,8 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-
+        bool done;
+        
         private void Awake()
         {
             // Setting up references.
@@ -33,17 +34,20 @@ namespace UnityStandardAssets._2D
         private void FixedUpdate()
         {
             m_Grounded = false;
-
+            if(m_Rigidbody2D.velocity.y < -1 && done == false)
+            { done = true; }
             // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
             // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-            for (int i = 0; i < colliders.Length; i++)
+            if (done == true)
             {
-                if (colliders[i].gameObject != gameObject)
-                    m_Grounded = true;
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    if (colliders[i].gameObject != gameObject)
+                        m_Grounded = true;
+                }
+                m_Anim.SetBool("Ground", m_Grounded);
             }
-            m_Anim.SetBool("Ground", m_Grounded);
-
             // Set the vertical animation
            m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
@@ -95,7 +99,10 @@ namespace UnityStandardAssets._2D
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
-                m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+                Vector2 jump_vel = new Vector2(0, m_JumpForce);
+                //m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+                m_Rigidbody2D.velocity = jump_vel;
+                done = false;
             }
         }
 
